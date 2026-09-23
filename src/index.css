@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@theme {
+  --color-cueva: #14141c;
+  --color-bloque: #22222e;
+  --color-pasto: #6abe30;
+  --color-diamante: #4fd1c5;
+  --color-oro: #f7c948;
+  --color-redstone: #e43b44;
+  --color-texto: #e8e8e8;
+
+  --font-pixel: "Pixelify Sans", monospace;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cueva);
+    color: var(--color-texto);
+  }
+}
