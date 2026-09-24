@@ -7,6 +7,7 @@ function App() {
     <main>
       <PantallaTitulo />
       <TarjetaOperador />
+      <Misiones />
       <Inventario />
     </main>
   )
