@@ -1,7 +1,8 @@
-function BotonPixel({ href, children }) {
+function BotonPixel({ href, children, ...resto }) {
   return (
     <a
       href={href}
+      {...resto}
       className="block py-3 text-center font-pixel text-lg
         bg-bloque border-4
         border-t-white/20 border-l-white/20 border-b-black/60 border-r-black/60
