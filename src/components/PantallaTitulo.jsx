@@ -16,6 +16,7 @@ function PantallaTitulo() {
       <p className="mt-6 text-lg">Frontend Developer</p>
       
       <nav className="mt-8 flex w-full max-w-xs flex-col gap-3">
+        <BotonPixel href="#perfil">Perfil</BotonPixel>
         <BotonPixel href="#misiones">Misiones</BotonPixel>
         <BotonPixel href="#inventario">Inventario</BotonPixel>
         <BotonPixel href="#contacto">Unirse a la party</BotonPixel>
